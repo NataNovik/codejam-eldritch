@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.anciens-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-width: 40%;
+    padding: 20px;
+}
+
+.anciens-card {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 260px;
+    width: 200px;
+}
+
+.anciens-card.active {
+    border: 1px solid red;
+}
+
+
+.complexity-container {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+}
+
+.complexity {
+    border: 2px solid purple;
+    box-sizing: border-box;
+    color: purple;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
+
+.complexity.active {
+    background: red;
+}
+
+.deck-container {
+    align-items: center;
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+}
+
+.shuffle-button {
+    background-color: red;
+    border: 2px solid purple;
+    color: purple;
+    cursor: pointer;
+    padding: 5px;
+}
+
+

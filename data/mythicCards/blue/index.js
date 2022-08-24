@@ -1,75 +1,74 @@
-import blueCardsAssets from '../../../assets/MythicCards/blue';
 
 const cardsData = [
   {
     id: 'blue1',
-    cardFace: blueCardsAssets.blue1,
+    cardFace: "blue1",
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue2',
-    cardFace: blueCardsAssets.blue2,
+    cardFace: "blue2",
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue3',
-    cardFace: blueCardsAssets.blue3,
+    cardFace: "blue3",
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue4',
-    cardFace: blueCardsAssets.blue4,
+    cardFace: "blue4",
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue5',
-    cardFace: blueCardsAssets.blue5,
+    cardFace: "blue5",
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue6',
-    cardFace: blueCardsAssets.blue6,
+    cardFace: "blue6",
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue7',
-    cardFace: blueCardsAssets.blue7,
+    cardFace: "blue7",
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue8',
-    cardFace: blueCardsAssets.blue8,
+    cardFace: "blue8",
     difficulty: 'hard',
     color:'blue'
   },
   {
     id: 'blue9',
-    cardFace: blueCardsAssets.blue9,
+    cardFace: "blue9",
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue10',
-    cardFace: blueCardsAssets.blue10,
+    cardFace: "blue10",
     difficulty: 'easy',
     color:'blue'
   },
   {
     id: 'blue11',
-    cardFace: blueCardsAssets.blue11,
+    cardFace: "blue11",
     difficulty: 'normal',
     color:'blue'
   },
   {
     id: 'blue12',
-    cardFace: blueCardsAssets.blue12,
+    cardFace: "blue12",
     difficulty: 'normal',
     color:'blue'
   },
